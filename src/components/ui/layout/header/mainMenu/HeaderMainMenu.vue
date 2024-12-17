@@ -4,26 +4,11 @@ import { RouterLink } from 'vue-router'
 import Logo from '../../../../../../public/logo/logo.svg'
 
 const navItems: Link[] = [
-  {
-    href: '/',
-    content: 'ElcoreStore'
-  },
-  {
-    href: '/none',
-    content: 'ElcoreCloud'
-  },
-  {
-    href: '/none',
-    content: 'ElcoreIDE'
-  },
-  {
-    href: '/none',
-    content: 'Обучение и ресурсы ▼'
-  },
-  {
-    href: '/none',
-    content: 'Новости и статьи'
-  }
+  { href: '/', content: 'ElcoreStore' },
+  { href: '/none', content: 'ElcoreCloud' },
+  { href: '/none', content: 'ElcoreIDE' },
+  { href: '/none', content: 'Обучение и ресурсы ▼' },
+  { href: '/none', content: 'Новости и статьи' }
 ]
 </script>
 
